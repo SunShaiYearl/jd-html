@@ -1,0 +1,40 @@
+.showtcut{
+    background-color: #e4e4e5
+}
+.shortbord{
+    width: 1px;
+    height: 10px;
+    margin: 10px 10px 0;
+    background: #ccc;
+}
+.showtcut .fl i{
+    font-family: "icomoon";
+    font-size: 14px;
+    color: #f10215;
+}
+.showtcut .w{
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #9c9d9d;
+}
+.showtcut li a{
+    color: #9c9d9d;
+}
+.showtcut li a:hover{
+    color: #c81623;
+}
+.showtcut .fl li{
+    padding-left: 200px;
+}
+.dropdown{
+    position: relative;
+    padding-right: 15px;
+}
+.dropdown  i{
+    font-family: "icomoon";
+    font-size: 16px;
+    position: absolute;
+    top: -2px;
+    right: -2px;
+}
