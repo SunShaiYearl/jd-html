@@ -380,3 +380,12 @@ img {
     display: block;
 }
 /* 底部foot */
+.foot{
+    background: #EAEAEA;
+    height: 560px;
+}
+.foot-top{
+    width: 100%;
+    height: 102px;
+    border-bottom:1px solid #eaeaee;
+}
