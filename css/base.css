@@ -8,16 +8,25 @@
 .fl{
     float: left;
 }
+.pr{
+    position: relative;
+}
+input,button{
+    padding: 0;
+    border: 0;
+    outline: none;
+}
 ul{
     list-style: none;
     margin: 0;
     padding: 0;
+    
 }
 a{
     text-decoration-line: none;
     color: #747474;
 }
-i{
+i,em{
     font-style: normal;
     font-weight: normal;
 }

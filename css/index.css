@@ -1,40 +1,182 @@
-.showtcut{
-    background-color: #e4e4e5
+body {
+    background-color: #f6f6f6;
 }
-.shortbord{
+
+.showtcut {
+    background-color: #e4e4e5;
+    border-bottom: 1px solid #DDD;
+}
+
+.shortbord {
     width: 1px;
     height: 10px;
     margin: 10px 10px 0;
     background: #ccc;
 }
-.showtcut .fl i{
+
+.showtcut .fl i {
     font-family: "icomoon";
     font-size: 14px;
     color: #f10215;
 }
-.showtcut .w{
+
+.showtcut .w {
     height: 30px;
     line-height: 30px;
     font-size: 12px;
     color: #9c9d9d;
 }
-.showtcut li a{
+
+.showtcut li a {
     color: #9c9d9d;
 }
-.showtcut li a:hover{
+
+.showtcut li a:hover {
     color: #c81623;
 }
-.showtcut .fl li{
+
+.showtcut .fl li {
     padding-left: 200px;
 }
-.dropdown{
+
+.dropdown {
     position: relative;
     padding-right: 15px;
 }
-.dropdown  i{
+
+.dropdown i {
     font-family: "icomoon";
     font-size: 16px;
     position: absolute;
     top: -2px;
     right: -2px;
 }
+
+/* logo */
+
+.search {
+    height: 140px;
+}
+.inner{
+    height: 100%;
+}
+.search .logo {
+    position: absolute;
+    top: -30px;
+    height: 170px;
+    width: 190px;
+    color: #fff;
+    box-shadow: 0 -12px 10px rgba(0, 0, 0, .2)
+}
+
+.search .logo a {
+    width: 190px;
+    height: 170px;
+    display: block;
+    background: url(../image/logo.jpg) no-repeat;
+    text-indent: -999px;
+}
+
+.logo h1 {
+    margin: 0;
+}
+/* 搜索 */
+.searchip {
+    position: absolute;
+    width: 550px;
+    left: 320px;
+    top: 25px;
+}
+
+.searchip input {
+    width: 498px;
+    height: 33px;
+    border: 1px solid red;
+    text-indent: 0.25em;
+    background: #fff;
+    color: #979998;
+
+}
+
+.searchip>em {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url(../image/sprite-search.png) no-repeat;
+    right: 60px;
+    top: 10px;
+}
+.searchClick{
+    width: 50px;
+    height: 35px;
+    background-color: #e62f2d;
+    float: right;
+    cursor: pointer;
+}
+.searchClick em{
+    font-family: "icomoon";
+    color: #fff;
+    font-size: 16px;
+}
+.car{
+    width: 188px;
+    height:33px;
+    border:1px solid #ccc;
+    position: absolute;
+    top: 25px;
+    left: 900px;
+    font-size: 12px;
+    color: #fff;
+    line-height: 33px;
+    text-align: center;
+}
+.car a{
+    color: #e62f2d;
+}
+.cir{
+    position: absolute;
+    left: 140px;
+    top:2px;
+    padding:0 3px;
+    font-size: 12px;
+    height: 16px;
+    border-radius: 40%;
+    line-height: 16px;
+    background-color: #e62f2d;
+}
+.car em{
+    font-family: "icomoon";
+    font-size: 16px;
+    color: #f10215;
+    margin-right: 3px;
+}
+.keyword{
+    position: absolute;
+    top:75px;
+    left: 320px;
+    font-size: 12px;
+}
+.keyword a:hover{
+    color: #e62f2d;
+}
+.logokey{
+    position: absolute;
+    bottom: 0;
+    left: 200px;
+    font-size: 16px;
+    font-weight :700 ;
+}
+.logokey ul{
+    float: left;
+}
+.logokey li{
+    float: left;
+    margin-left: 30px;
+}
+.logokey li a{
+   height: 40px;
+   line-height: 40px;
+}
+.logokey li a:hover{
+   color: #e62f2d;
+ }
