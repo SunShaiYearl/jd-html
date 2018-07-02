@@ -387,5 +387,122 @@ img {
 .foot-top{
     width: 100%;
     height: 102px;
-    border-bottom:1px solid #eaeaee;
+    border-bottom:1px solid #DEDEDE;
+}
+.foot-top .w{
+    position: relative;
+}
+.foot-top .w ul{
+    width: 100%;
+}
+.foot-top .w li{
+    float: left;
+    width: 25%;
+    font-size: 18px;
+    text-indent: 3em;
+    line-height: 42px;
+    height: 43px;
+    margin-top: 32px;
+}
+.duo{
+    background: url(../image/ico_service.png) 8px 0px no-repeat;
+}
+.kuai{
+    background: url(../image/ico_service.png) 8px -43px no-repeat;
+}
+.hao{
+    background: url(../image/ico_service.png) 8px -86px no-repeat;
+}
+.shen{
+    background: url(../image/ico_service.png) 8px -129px no-repeat;
+}
+
+.foot-midd .w{
+   height: 200px;
+   border-bottom:1px solid #DEDEDE;
+}
+
+.foot-midd dl{
+    float: left;
+    width: 195px;
+    font-size: 14px
+
+}
+.foot-midd dt{
+    margin: 20px 0;
+    
+}
+.foot-midd dd{
+    font-size: 12px;
+    margin:10px 0;
+}
+.foot-midd dd a:hover{
+    color: #f10215;
+}
+.foot-midd-right{
+    float: right;
+    position: relative;
+    background: url(../image/ico_footer.png) -4px 2px no-repeat;
+    height: 150px;
+}
+.foot-midd-right dt{
+    text-align: center;
+}
+.foot-midd-right dd{
+    color: #727272;
+    line-height: 20px;
+}
+.float-a{
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+.foot-bottom .tous{
+    font-size: 12px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.foot-bottom .tous li{
+    float: left;
+    border-right: 1px solid #D4CDCD;
+    height: 12px;
+    line-height: 12px;
+    width: 70px;
+    padding: 0 2px;
+}
+.foot-bottom .tous a:hover{
+    color: #e62f2d;
+    cursor: pointer;
+}
+.foot-bottom p{
+    text-align: center;
+    font-size: 12px;
+    color: #9E9E9B;
+    margin: 7px 0;
+}
+.saver{
+    text-align: center;
+   
+}
+.saver a{
+    display:inline-block;
+    width: 103px;
+    height: 32px;
+	background: url(../image/ico_footer.png) no-repeat 0 -151px;
+}
+.saver .a2{
+    background-position: -103px -151px;
+}
+.saver .a3{
+    background-position: 0px -183px;
+}
+.saver .a4{
+    background-position: -103px -183px;
+}
+.saver .a5{
+    background-position: 0 -215px;
+}
+.saver .a6{
+    background-position: -103px -215px;
 }

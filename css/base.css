@@ -11,6 +11,12 @@
 .pr{
     position: relative;
 }
+dl{
+    margin: 0;
+}
+dd{
+    margin: 0;
+}
 input,button{
     padding: 0;
     border: 0;
